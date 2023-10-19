@@ -4,7 +4,6 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: sticky;
   }
   
   li {
@@ -25,14 +24,31 @@ ul {
 
 
 body {
-    background: lightblue;
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 2%;
 }
 
 h2 {
     text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+p {
+    width: 500px;
+    text-align: center;
+    margin-left: 30%;
+    font-weight: 400;
 }
