@@ -1,12 +1,67 @@
+<!---
+Basic Page Needs
+---->
 <!DOCTYPE html>
 <html lang="en">
     <head>
+<!---
+Mobile Specific Notes
+----->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!---
+CSS Links
+---->
 <link rel="stylesheet" href="style.css" />
 <title>My Website</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <script src="script.js"></script>
+        <header id="home" style="height: 771px;">
+            <nav id="nav-wrap" class="opaque">
+
+                <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+                 <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+       
+                <ul id="nav" class="nav">
+                   <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+                   <li class=""><a class="smoothscroll" href="#about">About</a></li>
+                    <li class=""><a class="smoothscroll" href="#resume">Resume</a></li>
+                   <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
+                   <li><a class="smoothscroll" href="#activities">Activities</a></li>
+                   <li><a class="smoothscroll" href="#stats">Statistics</a></li>
+                   <li><a class="smoothscroll" href="#contact">Contact</a></li>
+                </ul> <!-- end #nav -->
+       
+                <hr>
+       
+                <div class="head_banner" style="display: none;">
+                   <div class="banner__content">
+                      </div>
+                      <button class="banner__close">
+                         <span class="material-icons">close</span>
+                      </button>
+                      
+                   </div> <!-- end #banner__content -->
+                </div>
+       
+             </nav>
+            
+            <h4>
+                <span>Software Engineer</span>
+                <span>Merchandise Coordinator</span>
+            </h4>
+                <script src="script.js"></script>
+                    <h3>About Me</h3>
+                        <p>I'm currnetly learning software development part time as I also work as a Merchandise Coordinator in the Ski Industry.
+                        <p>
+                        <p>I really enjoy learning new things and am currently honing my skills in JavaScript, HTML, CSS, ReactJS, Python, SQL, and
+                        Flask. I'm excited to be able to implement these new skills in a professional environment.
+                        </p>
+                        <p>My previous experience comes from the retail world and am excited to apply myself in new industries through technology.
+                        </p>
+                        <p>I think it's important to keep progressing, always be curious, and testing your limits.
+                        </p>
+</header>
+    
     </body>
 
 </html>
